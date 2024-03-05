@@ -1,0 +1,31 @@
+/* .left-container,
+.right-container {
+  margin: 20px;
+} */
+/* .container1{
+    width: 550px;
+    height: 278px;
+    display: flex;
+    justify-content:space-around;
+} */
+.right-container img {
+  width: auto;
+  height: auto; 
+  display: block;
+}
+.row{
+  padding-top: 10px;
+}
+.slick-arrow.slick-next {
+  right: 0 !important; /* Override the right position */
+}
+@media (max-width: 768px) {
+  .slider-container img {
+    width: 115px !important;
+    height: 105px !important;
+  }
+  .slider-container p {
+    width: 115px !important;
+    height: 80px !important;
+  }
+}

@@ -1,0 +1,56 @@
+/* .container {
+    width: 100%;
+    padding: 0 15px; /* Add padding to container */
+  /* }  
+  .box {
+    border: 1px solid black;
+    padding: 20px; */
+    /* flex: 1; Equal width for both boxes */
+    /* width: 800px; Make both boxes take up the full width of their container */
+    /* max-width: calc(50% - 20px); Set maximum width of each box to half of the container width minus margin */
+  /* } */
+  
+  /* .row { */
+/* /    display: flex; */
+    /* flex-wrap: wrap; Allow boxes to wrap onto the next line if needed */
+  /* } */
+  /* .container{ */
+    /* margin: 100px; */
+  /* } */
+  * {
+    box-sizing: border-box;
+  }
+  
+  .flex-container {
+    display: flex;
+    font-family: "inter " Sans-serif;
+    flex-wrap: wrap;
+    font-size: 25px;
+    padding-left: 40px; /* Adjust padding for smaller screens */
+    padding-right: 40px; /* Adjust padding for smaller screens */
+    max-width: 100%; /* Set maximum width to prevent overflow */
+    /* background-color: gray; */
+  }
+  
+  .flex-item-left {
+    padding: 50px 30px;
+    flex: 50%;
+    border: 0.9px solid #14212D0D;;
+    font-size: 20px;
+  }
+  
+  .flex-item-right {
+    padding: 50px 30px;
+    flex: 50%;
+    border: 0.9px solid #14212D0D;;
+    font-size: 20px;
+  }
+  
+  /* Responsive layout - makes a one column-layout instead of a two-column layout */
+  @media (max-width: 800px) {
+    .flex-item-right, .flex-item-left {
+      flex: 100%;
+      max-width: 100%; /* Adjust maximum width for smaller screens */
+    }
+  }
+  
